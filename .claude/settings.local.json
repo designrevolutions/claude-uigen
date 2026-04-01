@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find c:/Repos/Claude/uigen -maxdepth 3 -name .cursorrules -o -name .cursor -o -name .github -o -name *.md)",
+      "Bash(grep -E \"rules|cursor|github|\\\\.md$\")"
+    ]
+  }
+}
