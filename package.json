@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "devbackup": "NODE_OPTIONS='--require ./node-compat.cjs' next dev --turbopack",
-    "dev": "NODE_OPTIONS='--require ./node-compat.cjs' next dev",
+    "dev": "NODE_OPTIONS='--require ./node-compat.cjs' next dev --turbopack",
+    "devnew": "NODE_OPTIONS='--require ./node-compat.cjs' next dev",
     "dev:daemon": "NODE_OPTIONS='--require ./node-compat.cjs' next dev --turbopack > logs.txt 2>&1 & echo 'Server started, writing logs to logs.txt'",
     "build": "NODE_OPTIONS='--require ./node-compat.cjs' next build",
     "start": "NODE_OPTIONS='--require ./node-compat.cjs' next start",
